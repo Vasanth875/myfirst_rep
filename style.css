@@ -1,0 +1,52 @@
+/* Style the entire page background */
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style a container card */
+.profile-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 350px;
+}
+
+/* Style headings */
+h1 {
+    color: #1a73e8;
+    margin-bottom: 10px;
+}
+
+/* Style paragraphs */
+p {
+    color: #5f6368;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style an interactive button */
+.btn {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 15px;
+    transition: background 0.3s ease;
+}
+
+/* Add a hover effect to the button */
+.btn:hover {
+    background-color: #1557b0;
+}
+
